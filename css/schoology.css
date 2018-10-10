@@ -1,0 +1,203 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    line-height: 1.4;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 14px;
+    background: #dedede;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+#header, #branding {
+    background: #44505d;
+    border-bottom: none;
+    height: 73px;
+}
+
+.navbar-inverse {
+	background-color:#3B5998;
+	border-color: #3B5998;
+}
+
+#bg-dark{
+    background-color: #44505D!important;
+}
+
+#page-footer, #footer {
+    background: #eee;
+    color: #556370;
+    font-family: "Sgy Open Sans", "Lucida Grande", Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+
+#footer, input[type=submit], span.cancel-btn, #header, #branding {
+    -wekbit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+#branding {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100001;
+    background: #333333;
+    -webkit-box-shadow: 0 0 4px rgba(4,4,4,.61);
+    -moz-box-shadow: 0 0 4px rgba(4,4,4,.61);
+    -ms-box-shadow: 0 0 4px rgba(4,4,4,.61);
+    -o-box-shadow: 0 0 4px rgba(4,4,4,.61);
+    box-shadow: 0 0 4px rgba(4,4,4,.61);
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-bg{
+    color:#44505D;
+    background-color: #44505D!important;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+
+element.style {
+}
+#login-container {
+    width: 374px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+}
+.jumbotron{
+	background-color: #E9EBEE;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #314b80;
+    border-color: #314b80;
+}
+
+.card-profile {
+    min-height: 20px;
+    padding: 5px;
+    margin: 3px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+.card-comment {
+    min-height: 20px;
+    padding: 19px;
+    margin: 3px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.section-container {
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.card-container{
+	padding:0px;
+	max-height: 10%;
+}
+
+.profile-name{
+	color:#37538f;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.comment{
+    color:#888F9D;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+
+
+.img-comment{
+    width: 40px; 
+    border:1px solid #808FAF;
+}
+
+.centrado {
+  width: 300px;
+  padding-left:  50px;
+  padding-right: 50px;
+  margin-left:   30px;
+  margin-right:  30px;
+  border: 10px solid black;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    content: ".";
+}
+
+.form-item {
+    margin-bottom: 10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.div{
+    display: block;
+}
+
+
+.cuadro-transparente{
+            background-color: #F9F9F8; 
+            border:1px; border-color:#ffffff;
+            border-style: solid;
+            padding:50px;
+            margin:50px;
+            font-family: 'Shadows Into Light', cursive;
+        }

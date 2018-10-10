@@ -1,0 +1,29 @@
+#content-container { width: 100%; }
+#login-container { width: 374px; margin: 0 auto; background: #fff; }
+#login-container #s-user-login-form .loader { bottom: 30px; }
+#login-container #s-user-login-form label, #login-container #s-user-login-forgot-form label { color: transparent; height: 0; font: 0/0 a; text-shadow: none; position: absolute; }
+#login-container #s-user-login-form label.option, #login-container #s-user-login-forgot-form label.option { color: #aaa; font: 12px/1.4 "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif; height: auto; position: static; }
+#login-container #s-user-login-form label .placeholder, #login-container #s-user-login-forgot-form label .placeholder { font: 16px/1.4 "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif; color: #aaa; }
+#login-container .messages { margin-bottom: 15px; }
+#login-container .login-content { padding: 19px 30px 25px; background: #fff; }
+#tracker { width: 100%; height: 55px; background: #eee; border-bottom: 1px solid #ddd; }
+#tracker-inner { width: 500px; margin: 0 auto; padding-top: 10px; }
+#tracker .tracker-icon { background: url(../images/tracker_sprite.png) no-repeat 0 -79px; float: left; width: 35px; height: 35px; }
+#tracker .tracker-icon.forgot-icon { background-position: -42px -79px; }
+#tracker h2 { padding: 3px 0 0 45px; }
+#tracker h2 .active { color: #333; }
+#s-user-login-form, #s-user-login-forgot-form { position: relative; margin-top: 10px; }
+#s-user-login-form .loader { display: none; background: url(../images/ajax-loader.gif) no-repeat; width: 50px; height: 15px; position: absolute; }
+#s-user-login-form .school-name { font-weight: bold; font-size: 14px; padding: 5px 0 10px; }
+#s-user-login-form .school-name .gray { font-weight: normal; }
+#header-container .top-nav { display: none; }
+.login-page #main-nav .supplementary { display: none; }
+.login-page #login-container h3 { display: block; float: left; margin-top: 0; width: 100%;}
+.login-page .login #login-container .forgot-header { display: none; }
+.login-page .login-forgot #login-container .sign-in-header { display: none; }
+.login-page .login-forgot #login-container .forgot-header { display: block; }
+.login-page #login-container .login-content .messages { margin-top: 13px; margin-bottom: 20px; }
+
+/* forgot password */
+#s-user-login-forgot-form #edit-name { width: 296px; }
+#s-user-login-forgot-form .form-required { display: none; }

@@ -1,0 +1,26 @@
+.registration-container { position: relative; width: 350px; margin: 30px auto; background: #fff; border: 1px solid #c7c7c7; padding: 15px 30px 25px; }
+.registration-container #sign-up-selector { line-height: 1.3; font-size: 16px; }
+.registration-container #sign-up-selector h3, .registration-container h3 { margin: 0; font-size: 18px; padding-bottom: 5px; margin-bottom: 10px; }
+.registration-container #sign-up-selector ul { margin: 0; list-style: none; text-align: center; }
+.registration-container #sign-up-selector li { display: inline; margin: 0; }
+.registration-container #sign-up-selector .submit-btn { padding: 11px 14px; width: 140px; font-weight: normal; }
+.registration-container #sign-up-selector #role-item-6 .submit-btn { margin-left: 10px; }
+.registration-container #sign-up-selector #role-item-7 .submit-btn { background: #bbb; margin-top: 8px; border: 1px solid #b8b8b8; color: #fff; padding: 5px; font-size: 14px; width: 94px; }
+.registration-container #sign-up-selector #role-item-7 .submit-btn:hover { background: #aaa; border-color: #a8a8a8; }
+.registration-container .form-step .form-text, .registration-container .form-step textarea, .registration-container .form-step select, .registration-container .form-step input[type="text"] { width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.ie7 .registration-container .form-step .form-text, .ie7 .registration-container .form-step textarea, .ie7 .registration-container .form-step select, .ie7 .registration-container .form-step input[type="text"] { width: 330px; }
+.ie7 .registration-container .form-step #edit-name-first-wrapper .form-text, .ie7 .registration-container .form-step #edit-name-last-wrapper .form-text { width: 150px; }
+.registration-container .form-step .form-text { background: #EEE; border-color: #E7E7E7; color: #666; font-size: 16px; padding: 9px; }
+.register-standalone #main-nav .supplementary { display: none; }
+.registration-container .description { font-size: 12px; margin-top: 5px; }
+.registration-container .back { position: absolute; font-weight: normal; font-size: 14px; right: 15px; top: 15px; color: #9A9FA8; padding: 5px 5px 5px 8px; }
+.registration-container .back:hover { color: #53a3c2; background: url(/sites/all/themes/schoology_theme/images/expandable.gif) no-repeat 0 -32px; text-decoration: none; }
+.registration-container #s-user-new-registration-form label { top: 8px; }
+.registration-container #s-user-new-registration-form input[type=submit] { width: 100%; }
+.registration-container #s-user-new-registration-form .form-checkbox.error { outline: 1px solid #c12e47; }
+.registration-container #s-user-new-registration-form .form-checkbox.error + span { color: #c12e47; }
+.registration-container #s-user-new-registration-form .form-checkbox { display: inline-block; float: left; margin: 3px; }
+.registration-container #s-user-new-registration-form .form-checkbox + span { display: table-cell }
+.registration-container #s-user-new-registration-form .g-recaptcha {transform: scale(1.16); transform-origin: 0 0; margin-bottom: 30px;}
+.registration-container #s-user-new-registration-form a, .clickable { color: #4479b3; }
+#s-user-new-registration-form .submit-span-wrapper { margin-top: 10px; display: block}
