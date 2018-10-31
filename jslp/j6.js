@@ -1,0 +1,3 @@
+/* Source and licensing information for the line(s) below can be found at https://www.schoology.com/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js. */
+(function($){jQuery.extend({debug:function(){window.debug=window.debug||[];args=jQuery.makeArray(arguments);if(typeof this=='object'){var name=(args.length?args[0]:window.debug.length),data=this}else{var name=(args.length>1?args.pop():window.debug.length),data=args[0]};window.debug[name]=data;if(typeof console!='undefined')console.log(name,data);return this}});jQuery.fn.debug=jQuery.debug})(jQuery);;
+/* Source and licensing information for the above line(s) can be found at https://www.schoology.com/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js. */
