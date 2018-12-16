@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 
 <html lang="en"> 
@@ -8,15 +6,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <script src="js/14_webfont.js" type="text/javascript" async=""></script>  
 
-  <title>Learning Management System | LMS | Schoology</title>
+ <link rel="shortcut icon" href="img/favicon2.png" type="image/x-icon" />
 
-  <!-- Google Site Verification -- YouTube -->
-  <meta name="google-site-verification" content="ppBdYOnX8QMdi7QLh3aNwYt-qFiEaLHjvbtxbsZEfII" />
+  <title>Sistema para el manejo del aprendimiento| LMS | Scholoogyy</title>
 
-  <!-- Google Search Console Site Verification -- Google Analytics -->
-  <meta name="google-site-verification" content="9tK81P_TYDOlOx_Me0FXzEj_nQnkL9G0kQxRcG4LT7I" />
-
+  
   <!--[if IE]><![endif]-->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="dns-prefetch" href="//www.google-analytics.com" />
@@ -24,27 +21,34 @@
 
   <script type="application/ld+json">#</script>
 
-<link rel="shortcut icon" href="https://www.schoology.com/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
-<meta name="description" content="Meet the LMS putting collaboration at the heart of the learning by connecting the people, content, and systems that fuel education. Sign up for free!" />
-<meta name="generator" content="Drupal 7 (http://drupal.org)" />
-<link rel="canonical" href="https://www.schoology.com/homepage" />
-<link rel="shortlink" href="https://www.schoology.com/node/9891" />
-<meta property="og:title" content="Learning Management System | LMS | Schoology" />
-<meta property="og:description" content="Meet the LMS putting collaboration at the heart of the learning by connecting the people, content, and systems that fuel education. Sign up for free!" />
-<meta property="og:image" content="https://www.schoology.com/sites/default/files/schoology-learning-management-system.jpg" />
-<meta property="og:image:url" content="https://www.schoology.com/sites/default/files/schoology-learning-management-system.jpg" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:creator" content="Schoology" />
-<meta name="twitter:url" content="https://www.schoology.com/homepage" />
-<meta name="twitter:title" content="Homepage" />
-<meta name="twitter:description" content="Meet the LMS putting collaboration at the heart of the learning by connecting the people, content, and systems that fuel education. Sign up for free!" />
+
 <meta name="twitter:image" content="https://www.schoology.com/sites/default/files/schoology-learning-management-system.jpg" />
 <meta name="HandheldFriendly" content="true" />
+
+<script type="text/javascript" src="jslp/1_jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="jslp/2_drupal.js"></script>
+<script type="text/javascript" src="jslp/3_jquery.elastic-1.6.11.js"></script>
+<script type="text/javascript" src="jslp/4_thickbox-compressed.js"></script>
+<script type="text/javascript" src="jslp/5_modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="jslp/6_front.js"></script>
+<script type="text/javascript" src="jslp/7_jquery.autocomplete.js"></script>
+<script type="text/javascript" src="jslp/8_s_user_usernames_login.js"></script>
 
   <!--[if lt IE 9]>
     <script src="/sites/all/themes/schoology/assets/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript" async></script>
     <script src="/sites/all/themes/schoology/assets/js/vendor/respond.min.js" type="text/javascript" async></script>
   <![endif]-->
+
+<script type="text/javascript" src="jslp/9_drupal(1).js"></script>
+<script type="text/javascript" src="jslp/10_jquery.form.318.js"></script>
+<script type="text/javascript" src="jslp/11_register.js"></script>
+<script type="text/javascript" src="jslp/12_s_school.js"></script>
+<script type="text/javascript" src="jslp/13_date_timezone.js"></script>
+<link rel="stylesheet" type="text/css" href="jslp/14_webfont.js">
+<link rel="stylesheet" type="text/css" href="csslp/rebranded.css">
+
+<link rel="stylesheet" type="text/css" href="csslp/bodyLPG.css">
+<link rel="stylesheet" type="text/css" href="csslp/footerLPG.css">
 
 <link type="text/css" rel="stylesheet" href="csslp/a1.css" media="all">
 <link type="text/css" rel="stylesheet" href="csslp/a2.css" media="screen">
@@ -87,7 +91,7 @@
             </svg>
           </a>
           <div class="site-logo">
-            <a href="/"title="Home" rel="home" id="logo">
+            <a href="index.php"title="Home" rel="home" id="logo">
               <svg class="icon icon-logo">
                 <use xlink:href="#logo"></use>
               </svg>
@@ -103,15 +107,15 @@
               <ul>
 
                 <li>
-                  <a href="#" id="signup-instructor-header">Instructor</a>
+                  <a href="paginas/registro_instructor.html" id="signup-instructor-header">Instructor</a>
                 </li>
 
                 <li>
-                    <a class="front-only" href="#" id="signup-student-header">Estudiante</a>
+                    <a class="front-only" href="paginas/registro_estudiantes.html" id="signup-student-header">Estudiante</a>
                 </li>
 
                 <li>
-                    <a href="#" id="signup-parent-header">Padres</a>
+                    <a href="paginas/registro_padres.html" id="signup-parent-header">Padres</a>
                 </li>
               </ul>
             </div>
@@ -119,12 +123,14 @@
             <div id="block-menu-block-1" class="block block-menu-block block-1">
               <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
                 <ul class="menu">
-                  <li class="first leaf menu-mlid-3106"><a href="/k-12">Tour</a></li>
-                  <li class="leaf menu-mlid-3861"><a href="/stories" id="stories-header">Cuentos</a></li>
-                  <li class="leaf menu-mlid-3216"><a href="/connect" id="connect-header">Conectar</a></li>
-                  <li class="leaf menu-mlid-3236"><a href="/resources" id="resources-header">Recursos</a></li>
-                  <li class="leaf menu-mlid-13626"><a href="/blog" id="blog-header">Blog</a></li>
-                  <li class="collapsed menu-mlid-3211"><a href="/about" id="about-header">Acerca de</a></li>
+                  <li class="first leaf menu-mlid-3106"><a href="#tour">Tour</a></li>
+                  <li class="leaf menu-mlid-3861"><a href="#cuentos" id="stories-header">Cuentos</a></li>
+                  <li class="leaf menu-mlid-3216"><a href="#conecta" id="connect-header">Conectar</a></li>
+                  <li class="leaf menu-mlid-3236"><a href="#recurso">Recursos</a></li>
+
+                  
+                  <li class="leaf menu-mlid-13626"><a href="#blog" id="blog-header">Blog</a></li>
+                  <li class="collapsed menu-mlid-3211"><a href="#" id="about-header">Acerca de</a></li>
                   <li class="expanded menu-mlid-12121 nav-signup" id="signup-menu">
                     <a href="#" id="signup-header" class="text-tab-uppercase nolink">Regístrate</a>
 
@@ -134,11 +140,11 @@
                       </li>
 
                       <li class="leaf menu-mlid-25876 nav-student">
-                        <a href="#" target="_blank">Estudiante</a>
+                        <a href="paginas/registro_estudiantes.html" target="_blank">Estudiante</a>
                       </li>
 
                       <li class="last leaf menu-mlid-25881 nav-parent">
-                        <a href="#">Padre</a></li>
+                        <a href="paginas/registro_padre.html">Padre</a></li>
                     </ul>
                   </li>
 
@@ -146,7 +152,7 @@
                     <a href="paginas/login.html" id="login-header" class="text-uppercase">Iniciar sesión</a>
                   </li>
                     <li class="last leaf menu-mlid-12116 get-started text-uppercase">
-                      <a href="/request-a-demo" id="get-started-header">Solicite una demostración</a>
+                      <a href="#" id="get-started-header">Solicite una demostración</a>
                     </li>
                </ul>
             </div>
@@ -171,12 +177,13 @@
                   <section class="slice__content">
                     <div class="container">
                       <div class="field field-name-field-slice-columns field-type-text-long field-label-hidden has-2-cols">
-                        <div class="field-item even "><h1 class="larger">Avanza lo que es posible</h1>
+                        <div class="field-item even ">
+                          <h1 class="larger">Avanza lo que es posible</h1>
                           <p class="larger">Schoology reúne el mejor sistema de gestión de aprendizaje K-12 con gestión de evaluación para mejorar el rendimiento de los estudiantes, fomentar la colaboración y personalizar el aprendizaje.<br />
                           </p>
 
                           <p>
-                            <a class="btn btn--default" href="/request-a-demo">Solicitar una demostración</a>
+                            <a class="btn btn--default" href="#">Solicitar una demostración</a>
                           </p>
                         </div>
                           <div class="field-item odd ">
@@ -203,7 +210,7 @@
                   <section class="slice__content">
                     <div class="container">
                       <div class="field field-name-field-features field-type-entityreference field-label-hidden">
-                        <div class="field-item even ">
+                        <div class="field-item even " id="cuentos">
                           <article id="slice-1081" class="entity entity-slice slice-media-text entity-slice-1081 view-mode-teaser " about="/slice/media_text/1081" typeof="">
                             <div class="slice__wrap">
                             <!-- Full view MNT -->
@@ -281,7 +288,7 @@
 
           <div class="field field-name-field-more-link field-type-link-field field-label-hidden">
             <div class="field-item even ">
-              <a href="/k-12" class="btn btn--white">Aprende más</a>
+              <a href="#" class="btn btn--white">Aprende más</a>
             </div>
           </div>
 
@@ -290,7 +297,7 @@
       </div>
     </article>
   </div>
-      <div class="field-item even ">
+      <div class="field-item even" id="conecta">
         <article id="slice-1101" class="entity entity-slice slice-slice-features entity-slice-1101 view-mode-default title-hidden is-centered-mobile is-padded slice-split clearfix" about="/slice/slice_features/1101" typeof="">
           <div class="slice__wrap" >
             <section class="slice__content">
@@ -301,11 +308,13 @@
                       <img alt="fill_1.png" src="imglp/lms-integrations.png" style="width: 65%;" />
                       <p> </p>
 
+                      
+
                         <h2>Más de 200 herramientas educativas e integraciones de plataformas.</h2>
                         <p style="font-size:24px;line-height:1.25em;">Schoology tiene todas las herramientas que su aula necesita y viene preintegrada con más de 200 herramientas, sistemas de información para estudiantes (SIS) y plataformas educativas..<br />
                         </p>
                         <p class="d-none d-lap-block">
-                          <a class="btn btn--white" href="/apps" target="_blank">Ver todas las integraciones.</a>
+                          <a class="btn btn--white" href="#" target="_blank">Ver todas las integraciones.</a>
                         </p>
                       </div>
                   </div>
@@ -393,7 +402,7 @@
               </a>
             </div>
 
-            <div class="mnt-text">
+            <div class="mnt-text" id="recurso">
               <div class="field field-name-field-slice-body field-type-text-long field-label-hidden">
                 <div class="field-item even ">
                   <h2>Transformando el aprendizaje con edtech para más de 20,000 estudiantes en Palo Alto, CA</h2>
@@ -405,7 +414,7 @@
             </section>
             <div class="slice__footer">
               <div class="field field-name-field-more-link field-type-link-field field-label-above">
-              <div class="field-item even "><a href="/advance-whats-possible" class="btn btn--white">Ver más historias</a>
+              <div class="field-item even "><a href="#" class="btn btn--white">Ver más historias</a>
               </div>
             </div>
           </div>
@@ -417,7 +426,7 @@
       <article id="slice-1116" class="entity entity-slice slice-view-slice entity-slice-1116 view-mode-default is-centered is-padded title-underlined clearfix" about="/slice/view_slice/1116" typeof="">
         <div class="slice__wrap" >
           <header class="slice__header">
-            <div class="container">
+            <div class="container" id="tour">
               <h2 class="entity__title slice__title">Ultimo pensamiento</h2>
             </div>
           </header>
@@ -459,7 +468,7 @@
                           </div>
                           <div class="views-field views-field-path">        
                             <span class="field-content">
-                              <a href="/blog/flipped-classroom" target="">Leer publicación de blog</a>
+                              <a href="#" target="">Leer publicación de blog</a>
                             </span>  
                           </div>    
                         </div>
@@ -469,7 +478,7 @@
                         <div class="view view-homepage-latest-thinking view-id-homepage_latest_thinking view-display-id-resource">
                           <div class="view-content">
                             <div class="views-row views-row-1 views-row-odd views-row-first views-row-last resource">
-                              <div class="row-wrap" data-link="#/student-engagement-hacks.html?utm_source=schoology-resources&utm_medium=web&utm_campaign=k-12-nurture-us&utm_content=engagement-hacks-ebook">
+                              <div class="row-wrap" data-link="#">
                                 <div class="views-field views-field-image">
                                   <img typeof="foaf:Image" src="imglp/student-engagement-hacks-classroom.jpg?itok=zd3F0slk" width="155" height="155" alt="" />
                                 </div>
@@ -478,7 +487,7 @@
                                 </div>
                                   <div class="views-field views-field-path">        
                                     <span class="field-content">
-                                      <a href="#/student-engagement-hacks.html?utm_source=schoology-resources&utm_medium=web&utm_campaign=k-12-nurture-us&utm_content=engagement-hacks-ebook" target="_blank">Leer el recurso</a>
+                                      <a href="#" target="_blank">Leer el recurso</a>
                                     </span>  
                                   </div>    
                                 </div>
@@ -488,7 +497,7 @@
                         </div>
                         <div class="view-footer">
                           <p>
-                            <a class="btn btn--white" href="#/blog">Leer más Pensando</a>
+                            <a class="btn btn--white" href="#">Leer más Pensando</a>
                           </p>
                         </div>
                       </div>
@@ -506,14 +515,14 @@
             <section class="slice__content">
               <div class="container">
                 <div class="field field-name-field-slice-columns field-type-text-long field-label-hidden has-2-cols">
-                  <div class="field-item even ">
+                  <div class="field-item even " id="blog">
                     <p>
-                      <img alt="think.png" src="/sites/default/files/learn-more-about-schoology.png" style="width:96px;height:104px;" />
+                      <img alt="think.png" src="imglp/learn-more-about-schoology.png" style="width:96px;height:104px;" />
                     </p>
                     <h2>¿Estás listo para avanzar en lo que es posible en la educación?</h2>
                     <p style="font-size:24px;line-height:1.25em;">Hable con uno de los especialistas en edtech de Schoology para saber cómo puede transformar la experiencia de aprendizaje en su escuela o distrito.<br />
                     </p>
-                    <p><a class="btn btn--default" href="/request-a-demo">Solicite una Demostración</a></p>
+                    <p><a class="btn btn--default" href="#">Solicite una Demostración</a></p>
                   </div>
                   <div class="field-item odd ">
                     <p style="text-align:right;">
@@ -537,13 +546,15 @@
   </main>
 </div>
 
+<!--footer-->
+
     <footer id="footer" class="footer">
         <section class="footer-columns">
           <div class="container clearfix">
             <div class="footer-columns-wrap">
              <div id="block-block-46" class="block block-block block-46">
               <h2 class="block__title">
-                <a href="/k-12" class="block-title-link" title="Tour">Tour</a>
+                <a href="#" class="block-title-link" title="Tour">Tour</a>
               </h2>
               <p>  </p>
             </div>
@@ -551,47 +562,47 @@
              <div class="footer-column footer-column-2">
               <div id="block-block-51" class="block block-block block-51">
                 <h2 class="block__title">
-                  <a href="/stories" class="block-title-link">Cuentos</a>
+                  <a href="#" class="block-title-link">Cuentos</a>
                 </h2>
                 <p> </p>
               </div>
             </div>
             <div class="footer-column footer-column-3">
               <div id="block-menu-block-4" class="block block-menu-block block-4">
-                <h2 class="block__title"><a href="/connect" class="block-title-link">Connectar</a></h2>
+                <h2 class="block__title"><a href="#" class="block-title-link">Connectar</a></h2>
                 <div class="menu-block-wrapper menu-block-4 menu-name-menu-footer-main-menu parent-mlid-8506 menu-level-1">
                   <ul class="menu">
-                    <li class="first leaf menu-mlid-8511"><a href="/blog">Blog</a></li>\
-                    <li class="leaf menu-mlid-8791"><a href="/news" id="news-footer">Noticias &amp; Prensa</a></li>
-                    <li class="leaf menu-mlid-8521"><a href="/events" id="events-footer">Eventos</a></li>
-                    <li class="last leaf menu-mlid-8526"><a href="/ambassadors" id="ambassadors-footer">Embajadores</a></li>
+                    <li class="first leaf menu-mlid-8511"><a href="#">Blog</a></li>\
+                    <li class="leaf menu-mlid-8791"><a href="#" id="news-footer">Noticias &amp; Prensa</a></li>
+                    <li class="leaf menu-mlid-8521"><a href="#" id="events-footer">Eventos</a></li>
+                    <li class="last leaf menu-mlid-8526"><a href="#" id="ambassadors-footer">Embajadores</a></li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="footer-column footer-column-4">
               <div id="block-menu-block-5" class="block block-menu-block block-5">
-                <h2 class="block__title"><a href="/resources" class="block-title-link">Recursos</a></h2>
+                <h2 class="block__title"><a href="#" class="block-title-link">Recursos</a></h2>
                 <div class="menu-block-wrapper menu-block-5 menu-name-menu-footer-main-menu parent-mlid-8531 menu-level-1">
                     <ul class="menu">
-                      <li class="first leaf menu-mlid-8536"><a href="/resources?type_1%5B%5D=video" id="resources-footer-video">Videos</a></li>
-                      <li class="leaf menu-mlid-8541"><a href="/resources?type_1%5B%5D=webinar" id="resources-footer-webinar">Seminarios web</a></li>
-                      <li class="leaf menu-mlid-8546"><a href="/resources?type_1%5B%5D=presentation" id="resources-footer-presentations">Presentaciones</a></li>
-                      <li class="leaf menu-mlid-8551"><a href="/resources?type_1%5B%5D=help_guide" id="resources-footer-best-practices">Mejores prácticas</a></li>
-                      <li class="leaf menu-mlid-8556"><a href="/resources" id="resources-footer-product-info">Información del producto</a></li>
-                      <li class="leaf menu-mlid-8561"><a href="/resources?type_1%5B%5D=research" id="resources-footer-research">Investigación</a></li>
-                      <li class="last leaf menu-mlid-8566"><a href="/resources?type_1%5B%5D=story" id="resources-footer-stories">Cuentos</a></li>
+                      <li class="first leaf menu-mlid-8536"><a href="#" id="resources-footer-video">Videos</a></li>
+                      <li class="leaf menu-mlid-8541"><a href="#" id="resources-footer-webinar">Seminarios web</a></li>
+                      <li class="leaf menu-mlid-8546"><a href="#" id="resources-footer-presentations">Presentaciones</a></li>
+                      <li class="leaf menu-mlid-8551"><a href="#" id="resources-footer-best-practices">Mejores prácticas</a></li>
+                      <li class="leaf menu-mlid-8556"><a href="#" id="resources-footer-product-info">Información del producto</a></li>
+                      <li class="leaf menu-mlid-8561"><a href="#" id="resources-footer-research">Investigación</a></li>
+                      <li class="last leaf menu-mlid-8566"><a href="#" id="resources-footer-stories">Cuentos</a></li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="footer-column footer-column-5">
               <div id="block-menu-block-6" class="block block-menu-block block-6">
-                <h2 class="block__title"><a href="/about" class="block-title-link">Acerca de</a></h2> 
+                <h2 class="block__title"><a href="#" class="block-title-link">Acerca de</a></h2> 
                 <div class="menu-block-wrapper menu-block-6 menu-name-menu-footer-main-menu parent-mlid-8571 menu-level-1">
                   <ul class="menu"><li class="first leaf menu-mlid-8576"><a href="/careers">Careers</a></li>
-                    <li class="leaf menu-mlid-8581"><a href="/team">Equipo</a></li>
-                     <li class="last leaf menu-mlid-8586"><a href="/contact" id="contact-footer">Contacto</a></li>
+                    <li class="leaf menu-mlid-8581"><a href="#">Equipo</a></li>
+                     <li class="last leaf menu-mlid-8586"><a href="#" id="contact-footer">Contacto</a></li>
                    </ul>
                  </div>
                </div>
@@ -643,8 +654,8 @@
         </div>
         <div id="block-block-6" class="block block-block block-6">
           <div class="footer-trust-icons">
-            <a id="privacy-footer" class="footer-privacy-link" href="/privacy">Politica de Privasidad</a>
-            <span>|</span><a id="terms-footer" class="footer-privacy-link" href="/terms-of-use">Términos de Uso</a>
+            <a id="privacy-footer" class="footer-privacy-link" href="#">Politica de Privasidad</a>
+            <span>|</span><a id="terms-footer" class="footer-privacy-link" href="#">Términos de Uso</a>
           </div>
           <span class="footer-contact">2 Penn Plaza, 10th Floor, New York, NY 10121</span>
         </div>
